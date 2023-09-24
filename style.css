@@ -1,0 +1,117 @@
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+/* Apply font to all elements */
+*{
+    font-family: 'Source Sans Pro';
+}
+/* Header styles */
+#page_header{
+    background-color: #A9BFE4 ;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #A9BFE4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Logo styles */
+#logo{
+    margin-left: 80px;
+}
+/* Menu styles */
+ul.menu {
+    float: right;
+  }
+ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 50px;
+  }
+ul.menu li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ul.menu li a:hover{
+    color: #ffc2c7;
+  }
+/*body styles*/
+body{
+    position: fixed;
+    background-color: #F5F5F5;
+    margin-top: 100px ;
+    width: 100%;
+}
+/*background photo styles*/
+#bouquet_img{
+    float: right;
+    margin-right: -10px;
+}
+/*content styles*/
+#text_content{
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 63px;
+    top: 100px;
+    font-style: normal;
+
+}
+#text_title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #351F21;
+}
+#text_desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #351F21;
+}
+/*footer styles*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+.bot_img{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.bot_img td {
+    display: flex;
+    justify-content: center;
+  } 
+.bot_img img {
+    margin: 0;
+  }
+.photo-container {
+    display: inline-block;
+    position: relative;
+  }
+.photo-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #989EC3;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    border: 0;
+    color: #FFFFFF;
+    cursor:pointer;
+  }
+  .photo-button:hover{
+    background-color: #6571c2;
+}
+

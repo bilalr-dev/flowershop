@@ -1,0 +1,64 @@
+
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+/* Apply font to all elements */
+*{
+    font-family: 'Source Sans Pro';
+}
+
+/*body styles*/
+body{
+    position: fixed;
+    background-color: #F5F5F5;
+    margin-top: 100px ;
+    width: 100%;
+}
+h1{
+    margin-left: 65px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #351F21;
+}
+p{
+margin-left: 65px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #351F21;
+}
+
+#text_img{
+    display: block;
+}
+.bg-photo {
+    float: left;
+    position:absolute;
+    bottom: -390%;
+    left: 84.5%;
+  }
+/*footer styles*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background: rgba(169, 191, 228, 0.3);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #351F21;
+  }
+#work_withus{
+    text-align: left;
+    margin-left: 63px ;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #989EC3;
+
+}

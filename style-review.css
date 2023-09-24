@@ -1,0 +1,138 @@
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    font-family: 'Source Sans Pro';
+    color: #351F21;
+}
+body{
+    
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background: rgba(169, 191, 228, 0.2);
+      
+}
+section{
+    position: fixed;
+    top: 24px;
+    left: 65px;
+    right: 65px;
+}
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #351F21;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color:#A9BFE4;
+  }
+
+#reviews_add{
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 120px;
+}
+#name{
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+} 
+#message{
+    width: 100%;
+    height: 94px;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+button{
+    width: 117px;
+    height: 29px;
+    background: #FFC2C7;
+    color: #FFFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+button:hover{
+    background: #daaeb2;
+}
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .review {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  } 
+.reviewer_name {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: bold;
+  }
+.review_text {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+.contact_info{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 65px;
+    }
+#copyright{
+        color: #ffffff;
+        font-size: 11px;
+    }
+.contact_info h1{ 
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.contact_info li{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 14px;
+color: #FFFFFF;
+list-style: none;
+}
+.contact_info a{ 
+    text-decoration: none;
+    color: #FFFFFF;
+
+    }
+  
+  
